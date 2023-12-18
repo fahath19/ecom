@@ -205,6 +205,7 @@
     position: relative;
     margin: 0.7rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
 
 }
 .product-container .pro-box .pro-desc{
@@ -225,10 +226,10 @@
 }
 .pro-box .pro-desc h4 b{
     color: rgb(105, 36, 98);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .pro-box .pro-desc h4{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
 }
 
@@ -245,7 +246,7 @@
     font-size: 1.2rem;
     width: 40px;
     height: 40px;
-    background-color: aqua;
+    background-color: rgb(199, 247, 247);
     border-radius: 30px;
     line-height: 40px;
     display: block;
@@ -261,15 +262,56 @@
 
 
 
+/*HERO BANNER 2 SECTION STYLING*/
+#hero-banner2{
+     text-align: center;
+     font-family: sans-serif;
+     background-image: url('img/banners/banner2.png');
+     height: 40vh;
+     display: flex;
+     background-size: cover;
+     background-position: center;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     user-select: none;
+}
+#hero-banner2 h4{
+         font-size: 1.5rem;
+         color: white;
+}     
+
+#hero-banner2 h1 {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    color: white;
+  
+
+}
+
+#hero-banner2 h1 span{
+    color: red;
+
+}
+#hero-banner2 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    background-color: aliceblue;
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+#hero-banner2 button:hover
+{
+    background-color: black;
+    color: white;
+}
 
 
-
-
-
-
-
-/*HEADER SECTION STYLING*/
-/*HEADER SECTION STYLING*/
 /*HEADER SECTION STYLING*/
 /*HEADER SECTION STYLING*/
 /*HEADER SECTION STYLING*/
