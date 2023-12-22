@@ -13,7 +13,7 @@
      color: red;
 }
 .section-pa{
-    padding: 0.6rem 80px;
+    padding: 0.6rem 60px;
 }
 #header{
     display: flex;
@@ -132,8 +132,8 @@
     width: 180px;
     text-align: center;
     padding: 1rem ;
-    margin: 1rem;
-   flex-grow: 2;
+   flex-grow: 1;
+   margin: 1rem;
 
 }
 .fea-box:hover{
@@ -184,7 +184,10 @@
      text-align: center;
      font-family: sans-serif;
      user-select: none;
-
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 
 }
 #product h1{
@@ -204,14 +207,15 @@
 
 }
 .product-container .pro-box{
-    width: 23%;
+    width: 22%;
     min-width: 250px;
     padding: 10px 15px;
     position: relative;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     cursor: pointer;
-    margin: 2rem 0.8rem;
     flex-grow: 3;
+    gap: 3rem;
+    margin: 12px 15px;
 
 }
 .product-container .pro-box .pro-desc{
@@ -321,6 +325,10 @@
 #new-arrival{
     text-align: center;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #new-arrival h1{
      margin-top: 1rem;
@@ -341,6 +349,7 @@
 #hero-banner-3{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     cursor: pointer;
 
@@ -351,6 +360,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
     min-width:  48%;
     height: 50vh;
     background-image: url('img/banners/bannerupd.png');
@@ -359,7 +369,7 @@
     margin-bottom: 3rem;
     font-family: sans-serif;
     background-position: center;
-    padding: 0px 0rem 0 3rem;
+    padding: 0px 0rem 0 2rem;
     flex-grow: 3;
     margin: 1rem 0.7rem;
 
@@ -419,6 +429,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: white;
 
 }
 
@@ -431,6 +442,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
@@ -481,7 +495,7 @@
 }
 
 #Newsletter input{
-    width: 350px;
+    width: 250px;
     padding: 10px;
     height: 50px;
     font-size: 1.2rem;
@@ -566,8 +580,108 @@ footer .fol{
     font-size: 1.5rem;
     font-weight: 600;
 }
-/*HEADER SECTION STYLING*/
-/*HEADER SECTION STYLING*/
+/*Mobile VIEW STYLING*/
+@media screen and (max-width:600px) {
+    .section-pa{
+        padding: 0.6rem 40px;
+    }
+    .nav-bar{
+        display: none;
+    }
+  #header  .logo{
+    padding-top: 10px;
+    }
+    .news-inpu{
+    }
+/*HERO BANNER2 SECTION MOBLIE VIEW STYLING*/
+
+    #hero-banner2 h4{
+        font-size: 2rem;
+        color: white;
+}     
+
+#hero-banner2 h1 {
+   font-size: 1.8rem;
+   margin-top: 1rem;
+   color: white;
+ 
+
+}
+
+#hero-banner2 h1 span{
+ font-size: 1.8rem;
+}
+#hero-banner2 button{
+   width: 120px;
+  font-size: 1rem;
+   
+}
+
+
+/*NEWSLETTER SECTION MOBLIE VIEW STYLING*/
+#Newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 88);
+    height: 30vh;
+    min-height: 30vh;
+    /* padding: 2.9rem 5rem; */
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+
+}
+
+#Newsletter h4{
+    font-size: 1.5rem;
+    color: white;
+}
+#Newsletter p{
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: rgb(161, 161, 161);
+
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Newsletter  span{
+    color: rgb(140, 140, 4);
+}
+
+#Newsletter input{
+    max-width: 450px;
+    padding: 10px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+#Newsletter button{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: white;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
 /*HEADER SECTION STYLING*/
 /*HEADER SECTION STYLING*/
 /*HEADER SECTION STYLING*/
